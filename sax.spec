@@ -5,8 +5,9 @@ Version:	1.0
 Release:	1
 Vendor:		Membership of XML-DEV mailing list
 License:	Public Domain
-Group:		Applications/Publishing/XML
-Group(pl):	Aplikacje/Publikowanie/XML
+Group:		Applications/Publishing/XML/Java
+Group(de):	Applikationen/Publizieren/XML/Java
+Group(pl):	Aplikacje/Publikowanie/XML/Java
 URL:		http://www.megginson.com/SAX/SAX1/
 Source0:	http://www.megginson.com/SAX/SAX1/saxjava-%{version}.zip
 BuildRequires:	unzip
