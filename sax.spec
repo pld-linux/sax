@@ -8,6 +8,7 @@ License:	Public Domain
 Group:		Applications/Publishing/XML/Java
 URL:		http://www.megginson.com/SAX/SAX1/
 Source0:	http://www.megginson.com/SAX/SAX1/%{name}java-%{version}.zip
+# Source0-md5:	0ca63012f0946765acb421c424f01d45
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
