@@ -8,7 +8,7 @@ License:	Public Domain
 Group:		Applications/Publishing/XML/Java
 Source0:	http://dl.sourceforge.net/sax/saxjava-%{version}.zip
 # Source0-md5:	4e696064ace16b987ded0d4ceb5961e5
-URL:		http://sourceforge.net/projects/sax/
+URL:		http://sax.sourceforge.net/
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
