@@ -32,12 +32,10 @@ install -d $RPM_BUILD_ROOT%{_javaclassdir}
 
 install %{name}.jar $RPM_BUILD_ROOT%{_javaclassdir}
 
-gzip -9nf README.txt CHANGES.txt ROADMAP.txt COPYING.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz javadoc
+%doc README.txt CHANGES.txt ROADMAP.txt COPYING.txt javadoc
 %{_javaclassdir}/*
