@@ -2,7 +2,7 @@ Summary:	A free API for event-based XML parsing
 Summary(pl):	Interfejs SAX do parsowania XML-a
 Name:		sax
 Version:	1.0
-Release:	1
+Release:	2
 Vendor:		Membership of XML-DEV mailing list
 License:	Public Domain
 Group:		Applications/Publishing/XML/Java
