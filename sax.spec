@@ -7,7 +7,7 @@ Vendor:		Membership of XML-DEV mailing list
 License:	Public Domain
 Group:		Applications/Publishing/XML/Java
 URL:		http://www.megginson.com/SAX/SAX1/
-Source0:	http://www.megginson.com/SAX/SAX1/saxjava-%{version}.zip
+Source0:	http://www.megginson.com/SAX/SAX1/%{name}java-%{version}.zip
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,11 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A free API for event-based XML parsing.
 
-%description -l pl 
+%description -l pl
 Interfejs SAX do parsowania XML.
 
 %prep
-%setup -q -c -T 
+%setup -q -c -T
 unzip -qa %{SOURCE0}
 chmod -R a+rX *
 
