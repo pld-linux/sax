@@ -6,9 +6,9 @@ Release:	1
 Vendor:		Membership of XML-DEV mailing list
 License:	Public Domain
 Group:		Applications/Publishing/XML/Java
-URL:		http://www.megginson.com/SAX/SAX1/
-Source0:	http://www.megginson.com/SAX/SAX1/%{name}java-%{version}.zip
-# Source0-md5:	0ca63012f0946765acb421c424f01d45
+URL:		http://sourceforge.net/projects/sax/
+Source0:	http://dl.sourceforge.net/sax/saxjava-%{version}.zip
+# Source0-md5:	4e696064ace16b987ded0d4ceb5961e5
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
