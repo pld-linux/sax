@@ -1,5 +1,5 @@
 Summary:	A free API for event-based XML parsing
-Summary(pl):	Interfejs SAX do parsowania XML-a
+Summary(pl.UTF-8):   Interfejs SAX do parsowania XML-a
 Name:		sax
 Version:	1.0
 Release:	2
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A free API for event-based XML parsing.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejs SAX do parsowania XML-a.
 
 %prep
