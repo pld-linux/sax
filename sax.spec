@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.java
 Summary:	A free API for event-based XML parsing
 Summary(pl.UTF-8):	Interfejs SAX do parsowania XML-a
 Name:		sax
